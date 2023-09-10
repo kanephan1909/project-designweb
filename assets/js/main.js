@@ -37,13 +37,13 @@ const linkAction = () =>{
 }
 navLink.forEach(n => n.addEventListener('click', linkAction))
 /* CHANGE BACKGROUND HEADER */
-const BlurHeader = () =>{
-    const header = document.getElementById('header')
-    // Khi cuộn lớn hơn 50 chiều cao khung nhìn, hãy thêm blur-header vào thẻ tiêu đề
-    this.scrollY >= 50 ? header.classList.add('blur-header') 
-                       : header.classList.remove('blur-header')
-}
-window.addEventListener('scroll', BlurHeader)
+// const BlurHeader = () =>{
+//     const header = document.getElementById('header')
+//     // Khi cuộn lớn hơn 50 chiều cao khung nhìn, hãy thêm blur-header vào thẻ tiêu đề
+//     this.scrollY >= 50 ? header.classList.add('blur-header') 
+//                        : header.classList.remove('blur-header')
+// }
+// window.addEventListener('scroll', BlurHeader)
 
 /*TESTIMONIAL SWIPER */
 let testimonialSwiper = new Swiper(".testimonial-swiper", {

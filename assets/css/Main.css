@@ -1,0 +1,47 @@
+.main_data{
+    width: 100%;
+    margin: 140px 0px 40px;
+}
+
+.main_title{
+    text-align: center;
+}
+
+.content_info{
+    text-align: initial;
+    column-count: 2;
+    column-gap: 30px;
+}
+
+.content_info2{
+    text-align: initial;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+}
+
+.main_title{
+    margin-bottom: 50px;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.coloa_image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.info_desc , .info_desc1{
+    margin: 20px 0;
+}
+
+.info_img{
+    text-align: center;
+    width: 900px;
+}
+
+.footer{
+    position: relative;
+    top: 160px;
+}
